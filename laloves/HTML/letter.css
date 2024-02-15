@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgba(5,5,5,0.2),rgba(5,5,5,0.2)),url("https://wallpapercave.com/wp/wp10373176.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+    margin: 0;
+    overflow: hidden;
+    font-family: "Sniglet", system-ui;
+    color: #222;
+}
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home img {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.home img:hover {
+    transform: rotate(-12.5deg);
+    transition: 0.5s ease;
+}
+.home p {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+#mail {
+    border: none;
+    background: transparent;
+}
+.start {
+    display: none;
+}
